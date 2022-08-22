@@ -1,0 +1,59 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+.vs/
+.sonarqube/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+ .gitlab-ci.yml
+ 
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+VSdoc/
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Mono auto generated files
+mono_crash.*
+
+#nginxlog
+/nginx/logs
+/nginx/ui/logs
+
+# compiled output
+/Source/GDigitalWebUI/ClientApp/dist
+/Source/GDigitalWebUI/ClientApp/tmp
+/Source/GDigitalWebUI/ClientApp/out-tsc
+# Only exists if Bazel was run
+/Source/GDigitalWebUI/ClientApp/bazel-out
+
+# dependencies
+/Source/GDigitalWebUI/ClientApp/node_modules
+
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+
+# editor files
+.vscode/**
+# allow some files
+# !.vscode/launch.json
+# !.vscode/tasks.json
+# !.vscode/restore-terminals.json

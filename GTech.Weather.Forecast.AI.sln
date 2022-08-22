@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{8578C902-D0FF-497C-9A21-52ABAD647808}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GTech.Weather.Forecast.AI.Domain", "Source\GTech.Weather.Forecast.AI.Domain\GTech.Weather.Forecast.AI.Domain.csproj", "{1671BC34-F654-428F-868D-D84D2E79408B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GTech.Weather.Forecast.AI.Infrastructure", "Source\GTech.Weather.Forecast.AI.Infrastructure\GTech.Weather.Forecast.AI.Infrastructure.csproj", "{62C04EF4-C669-46C8-A026-20AA6DDC967A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GTech.Weather.Forecast.AI.Applications", "Source\GTech.Weather.Forecast.AI.Applications\GTech.Weather.Forecast.AI.Applications.csproj", "{4043952A-64C8-47FD-879A-C559679A617C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GTech.Weather.Forecast.AI.Integration", "Source\GTech.Weather.Forecast.AI.Integration\GTech.Weather.Forecast.AI.Integration.csproj", "{7E6B8A18-8D61-4DF2-A38B-9B3AFDB3DBF8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GTech.Weather.Forecast.AI.ApiService", "Source\GTech.Weather.Forecast.AI.ApiService\GTech.Weather.Forecast.AI.ApiService.csproj", "{9A9EF766-0134-456C-B2EC-4D20F2519A0B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GTech.Weather.Forecast.AI.Test", "Source\GTech.Weather.Forecast.AI.Test\GTech.Weather.Forecast.AI.Test.csproj", "{A1609CC6-86EA-4C3C-A1D6-505316DA5937}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1671BC34-F654-428F-868D-D84D2E79408B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1671BC34-F654-428F-868D-D84D2E79408B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1671BC34-F654-428F-868D-D84D2E79408B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1671BC34-F654-428F-868D-D84D2E79408B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62C04EF4-C669-46C8-A026-20AA6DDC967A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62C04EF4-C669-46C8-A026-20AA6DDC967A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62C04EF4-C669-46C8-A026-20AA6DDC967A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62C04EF4-C669-46C8-A026-20AA6DDC967A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4043952A-64C8-47FD-879A-C559679A617C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4043952A-64C8-47FD-879A-C559679A617C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4043952A-64C8-47FD-879A-C559679A617C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4043952A-64C8-47FD-879A-C559679A617C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E6B8A18-8D61-4DF2-A38B-9B3AFDB3DBF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E6B8A18-8D61-4DF2-A38B-9B3AFDB3DBF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E6B8A18-8D61-4DF2-A38B-9B3AFDB3DBF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E6B8A18-8D61-4DF2-A38B-9B3AFDB3DBF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A9EF766-0134-456C-B2EC-4D20F2519A0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A9EF766-0134-456C-B2EC-4D20F2519A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A9EF766-0134-456C-B2EC-4D20F2519A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A9EF766-0134-456C-B2EC-4D20F2519A0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1609CC6-86EA-4C3C-A1D6-505316DA5937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1609CC6-86EA-4C3C-A1D6-505316DA5937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1609CC6-86EA-4C3C-A1D6-505316DA5937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1609CC6-86EA-4C3C-A1D6-505316DA5937}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1671BC34-F654-428F-868D-D84D2E79408B} = {8578C902-D0FF-497C-9A21-52ABAD647808}
+		{62C04EF4-C669-46C8-A026-20AA6DDC967A} = {8578C902-D0FF-497C-9A21-52ABAD647808}
+		{4043952A-64C8-47FD-879A-C559679A617C} = {8578C902-D0FF-497C-9A21-52ABAD647808}
+		{7E6B8A18-8D61-4DF2-A38B-9B3AFDB3DBF8} = {8578C902-D0FF-497C-9A21-52ABAD647808}
+		{9A9EF766-0134-456C-B2EC-4D20F2519A0B} = {8578C902-D0FF-497C-9A21-52ABAD647808}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE11A74F-7EE0-47F1-A388-BC9BAFD631DD}
+	EndGlobalSection
+EndGlobal
